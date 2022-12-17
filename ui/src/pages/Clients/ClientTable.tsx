@@ -13,9 +13,9 @@ export default function BasicTable({ clients }: { clients: IClient[] }) {
       <Table sx={{ minWidth: 400 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Name</TableCell>
-            <TableCell>Phone number</TableCell>
-            <TableCell>Email</TableCell>
+            <TableCell sx={{ fontWeight: "bold" }}>Name</TableCell>
+            <TableCell sx={{ fontWeight: "bold" }}>Phone</TableCell>
+            <TableCell sx={{ fontWeight: "bold" }}>Email</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
